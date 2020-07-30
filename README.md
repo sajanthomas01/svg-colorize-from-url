@@ -1,4 +1,4 @@
-# svg-colorize-from-url     (WIP)
+# svg-colorize-from-url (WIP)
 
 svg-colorize-from-url package accepts url of an svg or the plain svg as string with a color parameter and will return a new svg with the passed color. This only works with browser and some svg's are exception.
 
@@ -127,6 +127,7 @@ await colorizeSVG(url, color, 'URL')
 
 #### In case of SVG STRING
 
+```
 const data ='
 
 <?xml version="1.0"?>
@@ -137,6 +138,6 @@ const data ='
 	<circle cy="-19" r="5"/>
 </svg>';
 
-```
+
 await colorizeSVG(data, color, 'INLINE')
 ```
