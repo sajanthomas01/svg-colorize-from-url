@@ -1,0 +1,37 @@
+{
+  "name": "svg-colorize-from-url",
+  "version": "1.0.3",
+  "description": "This package accepts url of an svg or the plain svg as string with a color parameter and will return a new svg with the passed color. This only works with browser and some svg's are exception",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sajanthomas01/svg-colorize-from-url.git"
+  },
+  "keywords": [
+    "svg-color",
+    "svg",
+    "svg-fill",
+    "svg-color-url",
+    "fill",
+    "svg",
+    "color",
+    "svg",
+    "fill",
+    "svg",
+    "from",
+    "url",
+    "inline-svg-color"
+  ],
+  "author": "Sajan Thomas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sajanthomas01/svg-colorize-from-url/issues"
+  },
+  "homepage": "https://github.com/sajanthomas01/svg-colorize-from-url#readme",
+  "dependencies": {
+    "svg-fill": "^0.3.4"
+  }
+}
